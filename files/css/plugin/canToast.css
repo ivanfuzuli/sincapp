@@ -1,0 +1,55 @@
+/*canToast*/
+#toastPar{
+    position: fixed;
+    right:0;  
+    z-index: 9999;
+    top: 30px;
+    
+}
+.canToast{
+    background-color: #000;/*ie fallback*/    
+    background-color: rgba(0, 0, 0, 0.90);
+   color: #fff;
+   padding: 10px;
+    width: 280px;
+    position: relative;
+    margin: 12px;
+    border: 2px solid #d1d1d1;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        border-radius: 10px;   
+}
+.closeToast{
+    height: 32px;
+    width: 32px;
+    position: absolute;
+    background: url('../images/plugin/toast-icons.png') no-repeat -2px -154px;
+
+    top: -16px;
+    right: 10px;
+    cursor: pointer;
+}
+.closeToast:hover{
+       background-position: -33px -154px; 
+}
+
+.canToast .info, .canToast .success,.canToast .error{
+        display: table-cell;
+        vertical-align: middle;    
+    font-size: 12px;
+    font-family: arial, verdana;
+    padding-left: 48px;
+
+    height: 40px;
+    background: url('../images/plugin/toast-icons.png') no-repeat 0px -54px;
+}
+
+.canToast .success{
+       background-position: 0px 0px; 
+   
+}
+.canToast .error{
+       background-position: 0px -106px; 
+   
+}
+/*canToast End*/

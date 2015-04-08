@@ -1,0 +1,258 @@
+@charset "utf-8";
+
+::selection {
+	background: #22DCC2; /* Safari */
+}
+::-moz-selection {
+	background: #22DCC2; /* Firefox */
+}
+a {
+    color: #22DCC2;
+}
+
+/*******************************************************************/
+/********************* Global Elements Css Starts ******************/
+/* Button CSS starts */
+.button, a.button{
+	background-color: #22DCC2;
+	border: 1px solid #22DCC2;
+}
+input[type="submit"]{
+	background-color: #22DCC2;
+	border: 1px solid #22DCC2;
+}
+	input[type="submit"]:hover, input[type="submit"]:active, input[type="submit"]:focus{
+		color: #22DCC2;
+	}
+/* Button CSS ends */
+
+/********************* Global Elements Css ends ******************/
+/*******************************************************************/
+/* menu-bar starts */
+
+
+/* menu-bar starts from */
+	.menu-bar .main-nav .back_top a{
+		color: #22DCC2;
+	}
+	/* menu-bar Dropdown Starts */
+	.menu-bar .main-nav  ul > li > ul {
+		border-top: 1px solid #22DCC2;
+	}
+	/* menu-bar Dropdown Ends */
+	
+/* menu-bar ends */
+
+/* Section Homepage General CSS starts */
+		.section_container .hgroup h3:before, .section_container .hgroup h3:after{
+			background: #22DCC2;
+		}
+	.section_container .hgroup h3 span{
+		color: #22DCC2;
+	}	
+/* Section Homepage General CSS ends */
+
+/* .service_single starts */	
+	.service_single .service_block .icon-folio-shape-filled, .service_single .service_block .icon-folio-shape-stroke {
+		color: #22DCC2;
+	}
+	.service_single .service_block:hover .fa{
+		color: #22DCC2;
+	}
+/* .service_single ends */	
+
+/* Parallex Css Starts */
+		.parallex_folio .parallax_text h5 span{
+			color: #22DCC2;
+		}
+/* Parallex Css Ends */
+
+/* portfolio_nav starts */
+	.portfolio_nav ul li a:hover, .portfolio_nav ul li.current a{
+		color: #22DCC2;
+	}
+/* portfolio_nav ends */
+
+/* portfolio_listing starts */
+	.view .mask a .icon-folio-shape-filled{
+		color: #22DCC2;
+	}
+	.view .mask .port_detail{
+		color: #22DCC2;
+	}
+	.view .mask .port_detail h3{
+		color: #22DCC2;
+	}
+	.view .mask .port_detail p{
+		color: #22DCC2;
+	}
+	.view:hover .mask .port_detail, .single_portfolio.active .view .mask .port_detail{
+		color: #22DCC2;
+	}
+/* portfolio_listing ends */
+	
+/* .hm_blog_post starts */
+	.hm_blog_post .featured_holder .date{
+		background-color: #22DCC2;
+	}
+	.hm_blog_post .title_holder .post_title h2, .hm_blog_post .title_holder .post_title h2 a:hover{
+		color: #22DCC2;
+	}
+	.hm_blog_post .title_holder .comments a:hover{
+		color: #22DCC2;
+	}
+/* .hm_blog_post ends */
+
+/* .contact_area starts */
+.contact_area .contact_info .info_single i{
+	color: #22DCC2;
+}
+/* .contact_area ends */
+
+/* Footer Starts*/
+/* sm_links starts */
+ul.sm_links li a{
+	color: #22DCC2;
+}
+/* sm_links ends */
+.footer_text .hgroup h5 span {
+	color: #22DCC2;
+}
+/* Footer Ends*/
+
+/* content_bar Styling Starts*/
+	.content_bar h1 span, .content_bar h2 span, .content_bar h3 span, .content_bar h4 span, .content_bar h5 span, .content_bar h6 span, .content_bar h1 a span, .content_bar h2 a span, .content_bar h3 a span, .content_bar h4 a span, .content_bar h5 a span, .content_bar h6 a span{
+		color: #22DCC2;
+}
+.content_bar h1 a:hover, .content_bar h2 a:hover, .content_bar h3 a:hover, .content_bar h4 a:hover, .content_bar h5 a:hover, .content_bar h6 a:hover{
+	color: #22DCC2;
+}
+.content_bar .highlight{
+	color: #22DCC2;
+}
+	.content_bar p a{
+		color: #22DCC2;
+	}
+	.content_bar ul li:before{
+		color: #22DCC2;
+	}
+	/* quote_styling Starts */
+	.content_bar .quote_3 {
+		border-left: 3px solid  #22DCC2;
+	}
+	/* quote_styling Ends */
+		
+/* content_bar Styling Ends*/
+
+/* Blog Detail and Single Post etc starts */
+
+/* .blog_post Starts */
+	/* audiojs Ends */
+	.blog_post .date{
+		background-color: #22DCC2;
+	}
+	.blog_post .title_holder .post_title h2, .blog_post .title_holder .post_title h2 a:hover{
+		color: #22DCC2;
+	}
+	.blog_post .title_holder .comments a:hover{
+		color: #22DCC2;
+	}
+	/* social_media starts */
+/* .blog_post Ends */
+
+/* pagination start */ 
+	 /*.wp-pagenavi & wp_corenavi starts*/
+	.wp-pagenavi span.current, .folio_navigation  .wp_corenavi span.current {
+		background: #22DCC2;
+	}
+	/*.wp-pagenavi  & wp_corenavi starts*/
+	
+/* pagination end */
+
+/* side_bar Starts*/
+.widget-title {
+	border-bottom: 1px solid #22DCC2;
+}
+
+.widget-title:before {
+  color: #22DCC2;
+}
+	/* widget_recent_entries Starts*/
+	.widget_recent_entries ul li a:hover {
+		color: #22DCC2;
+	}
+	/* widget_recent_entries Ends*/
+
+	/* widget_categories Starts*/
+	.widget_categories ul li a:hover {
+		color: #22DCC2;
+	}
+	/* widget_categories Ends*/
+	
+	/* widget_text Starts*/
+	.textwidget strong {
+		color: #22DCC2;
+	}
+	/* widget_text Ends*/
+	
+	/* widget tagcloud starts */
+	.tagcloud a:hover {
+		background: #22DCC2;
+	}
+	/* widget tagcloud ends */
+	
+	/* widget_kraft_slider starts */
+				.widget_kraft_slider .bx-wrapper .bx-controls-direction a:hover{
+					color: #22DCC2;
+				}
+	/* widget_kraft_slider ends */
+	
+	/* tweet-list Starts */
+	.tweet-list .tweet .icon {
+		color: #22DCC2;
+	}
+	/* tweet-list Ends */
+	
+/* sidebar Ends*/
+
+/* .navigation Starts */
+		.page_nav a:hover{
+			background: #22DCC2;
+		}
+/* .navigation Ends */
+
+/* comments_section Starts */
+ #comments_section h3 i{
+    color: #22DCC2;
+ }
+		#comments_section #commentform .button:hover, #comments_section #commentform .button:active, #comments_section #commentform .button:focus{
+			color: #22DCC2;
+		}
+/* comments_section Ends */
+
+/* Blog Detail and Single Post etc ends */
+
+/************ project_style.css Starts ***********/
+/* #project_nav starts */
+#project_nav ul li a:hover{
+	background-color: #22DCC2;
+}
+/* #project_nav ends */
+
+/* #close_project starts */
+#close_project a:hover {
+	background: #22DCC2;
+}
+/* #close_project ends */
+/************ project_style.css Ends ***********/
+
+/************ responsiveslides.css Starts ***********/
+.transparent-btns_tabs .transparent-btns_here a, .transparent-btns_tabs a:hover{
+	border: 2px solid #22DCC2;
+}
+.centered-btns_here a:before,
+.transparent-btns_here a:before,
+.large-btns_here a:before {
+  color: #22DCC2;
+  }
+/************ responsiveslides.css Ends ***********/

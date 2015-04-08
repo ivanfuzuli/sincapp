@@ -1,0 +1,29 @@
+@import "../bootstrap/bootstrap.css";
+@import "../plugin/font-awesome/font-awesome.css";
+
+@import "../manage/tour.css";
+@import "../manage/manage.css";
+@import "../manage/pages.css";
+@import "../manage/photos.css";
+@import "../manage/paragraphs.css";
+@import "../manage/photoGalery.css";
+@import "../manage/coverPhoto.css";
+@import "../manage/language.css";
+
+@import "../manage/sliders.css";
+@import "../manage/forms.css";
+@import "../manage/maps.css";
+@import "../manage/menus.css";
+@import "../manage/toolbar.css";
+@import "../manage/blog.css";
+@import "../manage/documents.css";
+
+@import "../plugin/lightbox.css";
+@import "../plugin/flexslider.css";
+@import "../plugin/introjs.css";
+@import "../plugin/canToast.css";
+@import "../plugin/canTip.css";
+@import "../plugin/jquery.simplecolorpicker.css";
+@import "../plugin/perfect-scrollbar.css";
+@import "../../../bower_components/blueimp-file-upload/css/jquery.fileupload.css";
+@import "../static/general.css";

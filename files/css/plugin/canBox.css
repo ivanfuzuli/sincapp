@@ -1,0 +1,261 @@
+/*
+@canBox start
+*/
+
+.canBoxPadding{
+    padding: 10px;
+
+}
+.canBoxContainer{
+    top: 5%;
+    min-height: 400px;
+    height: 90%;
+    overflow: visible;
+    width: 960px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;    
+}
+.canBoxMain{
+    min-height: 600px;
+    
+    position: relative;
+    z-index: 999;
+    border: 1px solid #d1d1d1;
+    background-color: #f1f1f1;
+    margin-left: 45px;
+    margin-right: 45px;
+    height: 100%;
+        
+        -webkit-border-bottom-right-radius: 20px;
+        -moz-border-bottom-right-radius: 20px;
+        border-bottom-right-radius: 20px;    
+
+        -webkit-border-bottom-left-radius: 20px;
+        -moz-border-bottom-left-radius: 20px;
+        border-bottom-left-radius: 20px;     
+        
+        box-shadow: 2px 2px 20px #999; /* CSS3 */
+        -moz-box-shadow: 2px 2px 20px #999; /* Firefox */
+        -webkit-box-shadow: 2px 2px 20px #999; /* Safari, Chrome */    
+}
+.closeCanBox{
+    background: url('dialog-close.png') no-repeat;
+    cursor: pointer;
+    z-index: 1000;    
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    right: 45px;
+    top:5px;
+}
+
+.closeCanBox:hover{
+    background-position: 0px -16px;
+}
+.nextCanBox{
+    background: url('next-back.png') 0 -180px no-repeat;
+    width: 48px;
+    height: 90px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -45px;
+    
+    cursor: pointer;
+}
+.nextCanBox:hover{
+    background-position: 0 -270px;
+}
+
+.prevCanBox{
+    background: url('next-back.png') 0 0 no-repeat;
+    width: 48px;
+    height: 90px;
+    top: 50%;
+    margin-top: -45px;
+    position: absolute;
+    left: 0;
+    cursor: pointer;
+    
+}
+
+.prevCanBox:hover{
+     background-position: 0 -90px;   
+}
+
+.boxRight::-webkit-scrollbar, .boxLeft::-webkit-scrollbar {
+    width: 7px;
+}
+
+.boxRight::-webkit-scrollbar-track, .boxLeft::-webkit-scrollbar-track{
+    -webkit-box-shadow: none;
+    background-color: none;
+
+}
+.boxRight::-webkit-scrollbar-track:hover, .boxLeft::-webkit-scrollbar-track:hover {
+    background-color: #f1f1f1;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+.boxRight::-webkit-scrollbar-thumb, .boxLeft::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+
+    background-color: #969696;
+}
+
+.boxRight::-webkit-scrollbar-thumb:hover, .boxLeft::-webkit-scrollbar-thumb:hover {
+    background-color:#666;
+}
+.boxRight::-webkit-scrollbar-thumb:active, .boxLeft::-webkit-scrollbar-thumb:active {
+    background-color: #4d4d4d;
+}
+
+.boxLeft{
+    background-color: #fff;
+    float:left;
+    width: 539px;
+    overflow: auto;
+    position: relative;
+    height: 100%;
+    border-right: 1px solid #d1d1d1;
+}
+.boxRight{
+    float: left;
+    width: 310px;
+    font-family: arial, helvetica, sans-serif;
+    overflow: auto;
+    position: relative; 
+    height: 100%;    
+}
+
+.boxDate{
+    font-style: italic;
+    text-align: right;
+    float: right;
+}
+
+
+.hBoxTitle{
+    font-size: 13pt;
+    font-weight: bold;
+}
+
+
+.boxCommentOverlay{
+    position: relative;
+}
+.boxHidden{
+    display: none;
+}
+.boxHidden li{
+    position: relative;
+}
+.boxCommentArea{
+    outline: 0;
+    width: 270px;
+    padding: 5px;
+    height: 20px;
+    resize: none;
+    border:1px solid #d1d1d1;
+}
+
+.boxTextInput{
+    padding: 5px;
+    width: 260px;
+    margin-top: 5px;
+    border:1px solid #d1d1d1;
+    outline: 0;
+}
+
+.boxTextInput, .boxCommentArea{
+    -moz-box-shadow:    inset 0 0 4px #d1d1d1;
+    -webkit-box-shadow: inset 0 0 4px #d1d1d1;
+    box-shadow:         inset 0 0 4px #d1d1d1;        
+    /*css efekt like twitter*/
+    -webkit-transition: .3s ease-in-out;  
+    -moz-transition: .3s ease-in-out;  
+    transition: .3s ease-in-out;  
+}
+.boxTextInput:focus, .boxCommentArea:focus{
+    border: 1px solid #007eff;
+        -webkit-box-shadow: 0px 0px 6px #007eff;  
+        -moz-box-shadow: 0px 0px 5px #007eff;  
+        box-shadow: 0px 0px 5px #007eff;     
+}
+
+.boxSiteInput{
+    padding-left: 35px;
+    width: 230px;
+}
+.boxHttpSpan{
+    position: absolute;
+    top: 7px;/*1px border icin*/
+    padding-top: 5px;
+    left:5px;
+    width: 35px;
+    color: #666;
+}
+
+.boxSubmitBut{
+padding: 5px;
+margin-top:5px;
+background-color: #075490;     
+border: 1px solid #075490;
+color: #fff;
+font-weight: bold;
+    -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+}
+.boxSubmitBut:hover{
+    background-color: #000;
+}
+.requiredErr{
+    position: absolute;
+    top: 0px;
+    right: 20px;
+    padding: 5px;
+    background-color: #F00;
+    color: #fff;
+    font-weight: bold;
+    font-size: 8pt;
+}
+
+
+.comment{
+    position: relative;
+    border:1px solid #d1d1d1;
+    padding: 3px;
+    margin-top: 5px;
+    float: left;
+    width: 275px;
+}
+.noComment{
+     font-style: italic;
+    font-size: 9pt;   
+    text-align: center;
+    width: 100%;
+}
+.commentDate{
+    text-align: right;
+    font-style: italic;
+    font-size: 8pt;
+}
+.commentName{
+    font-weight: bold;
+}
+.commentName a{
+    color: #007eff;
+    text-decoration: none;
+}
+.commentName a:hover{
+    text-decoration: underline;
+}
+
+.commentBody{
+
+}
+/**
+Canbox End
+*/

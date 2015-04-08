@@ -1,0 +1,130 @@
+.input-small {
+    width: 88px;
+}
+#loading{
+    position: fixed;
+    top: 0;
+    left: 50%;
+    
+    background: url('../images/loading_mini.gif') no-repeat center #fff;
+    width: 60px;
+    height: 22px;
+
+    margin-left: -11px;
+    display: none;
+}
+
+body{
+    background: url('../images/home/index-bg.png') repeat #333;
+}
+
+.header_wrap{
+    background-color: #fff;
+    width: 100%;
+    float:left;
+    border-bottom: 1px solid #000;
+    margin-bottom: 10px;
+}
+#header{
+    margin-top: 10px;
+}
+
+
+
+.input-small-special{
+    width: 100px;
+}
+.input-special{
+    width: 237px;
+}
+/*Placeholder*/
+.placeholding-input{
+    position: relative;
+    display: -moz-inline-stack;
+    display:inline-block;
+        zoom: 1;
+        *display: inline;    
+}
+
+.placeholder{
+    position: absolute;
+    top:1px;
+    left: 2px;
+    right:1px;
+    bottom: 1px;
+    padding: 5px;
+    color:#999;
+    height: 20px;
+    cursor: text;
+    z-index: 10;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;    
+}
+
+
+
+.loading{
+    background: url('../images/loading-mini.gif') 0 50%  no-repeat;
+    width: 43px;
+    height: 11px;
+    display: -moz-inline-stack;
+    display:inline-block;
+        zoom: 1;
+        *display: inline;  
+}
+#footer{
+    text-align: center;
+    font-size: 11px;
+    color: #f1f1f1;
+}
+
+#footer span{
+    color:#ddd;
+    font-style:italic;
+}
+#footer a{
+    margin-right: 5px;
+    color: #d1d1d1;
+}
+
+#footer a:hover{
+    color: #fff;
+    text-decoration: none;
+}
+
+.required{
+    color: #F53D00;
+    font-size: 9pt;
+}
+
+ /*New Style*/
+#sincappVideo {
+    width: 500px;
+    height: 326px;
+}
+
+#signup-form .input-special, #signup-form .input-small-special, #signup-form .placeholder  {
+    height: 32px;
+    line-height: 32px;
+    font-size: 18px;
+}
+
+#signup-form .add-on {
+    font-size: 18px;
+    line-height: 32px;
+    height: 32px;
+}
+
+.input-small-special{
+    width: 146px;  
+}
+.input-special{
+    width: 322px;  
+}
+
+.popover-margin {
+    margin-left: -60px!important;
+}
+
+/* New Style End */

@@ -1,0 +1,235 @@
+@import url(//fonts.googleapis.com/css?family=Titan+One&subset=latin,latin-ext);
+
+
+#top_hr{
+	width: 100%;
+	height:6px;
+	background-color: #333;
+}
+
+body {
+   min-width: 960px;
+	 background: url(bg.png) no-repeat #0157b4;
+}
+
+
+#cover-photo img{
+  margin-bottom: 2px;
+}
+
+/* Containers
+----------------------------------------------------------------------------------------------------*/
+.container_16 {
+        float: left;
+	width: 960px;
+}
+
+.wrapper{
+    margin: auto auto;
+    width: 960px;
+}
+
+
+
+.col{
+    float: left;
+    display: block;
+    margin-left:15px;
+    margin-right: 15px;
+    min-height: 2px;
+}
+.ext{
+    padding: 5px;
+}
+
+/* `Clear Floated Elements
+----------------------------------------------------------------------------------------------------*/
+
+/* http://sonspring.com/journal/clearing-floats */
+
+.clear {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+/* http://www.yuiblog.com/blog/2010/09/27/clearfix-reloaded-overflowhidden-demystified */
+
+.clearfix:before,
+.clearfix:after {
+  content: '\0020';
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+/*
+  The following zoom:1 rule is specifically for IE6 + IE7.
+  Move to separate stylesheet if invalid CSS is a problem.
+*/
+
+.clearfix {
+  zoom: 1;
+}
+
+#header{
+ 	height:180px;
+	margin-top: 20px;
+	position:relative;
+	float:left;
+}
+
+#logo{
+	position: relative;
+	top: 60px;
+        float: left;
+}
+#logo span{
+	color:#fff;
+	font-size:24pt;
+        font-family: 'Titan One', cursive;
+}
+
+#navigation{
+    position: relative;
+    z-index: 5;
+    
+ 	height:54px;
+	background:url(nav-bg.png) no-repeat;
+	border-bottom:1px solid #0157b4;    
+}
+
+
+#nav_bar{
+	margin: 10px;
+        list-style: none;
+         padding: 0;
+}
+#nav_bar ul{
+    list-style: none;
+    margin: 0;
+}
+#nav_bar li{
+	float: left;
+	margin-right: 20px;
+	height:40px;
+	
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;		
+}
+
+#nav_bar li a{
+	display:block;
+	font-weight: bold;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:10pt;
+	color: #fff;
+	padding: 10px;
+	text-decoration:none;
+}
+
+#nav_bar li:hover, #navigation ul li.active-element{
+	background-color:#333333;
+}
+
+/*Alt Liste*/
+#nav_bar li ul{
+    display: none;
+    position: absolute;
+    width: 150px;
+    background-color: #333333;
+    
+}
+#nav_bar li ul li{
+    position: relative;
+    float: left;
+    width: 150px;
+    
+}
+#nav_bar li ul li:hover{
+    background-color: #800F25;
+}
+/*En alt liste*/
+#nav_bar li ul li ul{
+    margin-left: 150px;
+    top: 0px;
+}
+
+#nav_bar li:hover > ul{
+    display: block;
+}
+
+#middle{
+	min-height:300px;
+	background-color:#FFF;
+	border-bottom:1px solid #0157b4;
+        font-size: 10pt;
+}
+
+#lang_container {
+  float: right;
+  width: 150px;
+}
+
+#language {
+    float: right;
+    margin-top: 5px;
+}
+.language-tr, .language-en {
+  width: 32px;
+  height: 21px; 
+  margin-left: 5px;
+  background: url('turkey.png');
+  float: left;    
+}
+.language-en {
+  background: url('england.png');
+}
+#social {
+   float: right;
+   margin-top: 20px;
+   position: relative;
+}
+.social-facebook, .social-twitter, .social-google {
+  width: 32px;
+  height: 32px;
+  margin-left: 5px;
+  background: url('facebook.png');
+  float: left;
+}
+.social-twitter {
+  background: url('twitter.png');
+}
+.social-google {
+  background: url('google.png');
+}
+
+#footer{
+    position: relative;
+	background: url(footer-bg.png) bottom no-repeat #f1f1f1;
+}
+
+#footerText{
+        margin-top: 150px;
+        margin-bottom: 30px;
+        float: right;
+	color: #000;
+	margin-top: 50px;
+	font-size: 8pt;
+}
+
+ #bottom{
+ 	float:left;
+	width:100%;
+	height: 40px;
+ }

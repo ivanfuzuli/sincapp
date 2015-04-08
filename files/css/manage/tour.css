@@ -1,0 +1,90 @@
+#tourHelper{
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: 999;
+    width: 380px;
+    display: none;
+}
+
+.tourCol{
+    background-color: #000;
+        -webkit-border-radius: 5px;
+        -moz-border-radius:5px;
+        border-radius:5px;
+        padding: 3px;
+        float: left;
+        width: 100%;
+}
+
+
+#tourContent{
+    background-color: #fff;
+    padding: 5px;
+}
+
+#tourFooter{
+    padding: 5px;
+    font-weight: bold;
+    background-color: #f2f2f2;
+    border-top: 1px solid #ccc;
+    overflow: auto;
+}
+#tourFooter .btn{
+    float: right;
+    display: none;
+}
+#tourTriUp{
+    float: left;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top:3px;
+    	width: 0;
+	height: 0;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+}
+
+
+#tourTriUp{
+	border-bottom: 10px solid black;    
+}
+#tourTemp{
+    display: none;
+}
+#tourNav{
+    display: none;
+}
+
+
+.tourMoveLogoIcon{
+
+}
+.tourMoveLogoIcon i{
+    margin: 2px;
+    height: 4px;
+    width: 12px;
+    border-bottom: 1px solid #000;
+    border-top: 1px solid #000;
+    display: inline-block;
+}
+
+.tourUploadIcon{
+    background: url(../images/manage/edit-sp.png) 0 -126px no-repeat;
+    height: 16px;
+    width: 16px;
+    display: inline-block;
+}
+
+.tourMergeIcon{
+    background: url('../images/manage/delete-grid.png') no-repeat center;
+    height: 16px;
+    width: 16px;
+    display: inline-block;
+}
+
+.tourResizeIcon{
+    margin-left:4px;
+    margin-right: 4px;
+    border-left:1px solid #000;
+}

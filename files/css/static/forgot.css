@@ -1,0 +1,37 @@
+/*Placeholder*/
+.placeholding-input{
+    position: relative;
+    display: -moz-inline-stack;
+    display:inline-block;
+        zoom: 1;
+        *display: inline;    
+}
+
+.placeholder{
+    position: absolute;
+    top:1px;
+    left: 2px;
+    right:1px;
+    bottom: 1px;
+    padding: 5px;
+    color:#999;
+    height: 20px;
+    cursor: text;
+    z-index: 10;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;    
+}
+
+.forgot-div{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    
+    margin-left: -110px;
+}
+
+#logo{
+    text-align: right;
+    margin-bottom: 10px;
+}

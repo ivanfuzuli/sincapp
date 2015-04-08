@@ -1,0 +1,21 @@
+.mapSettings{
+    position: relative;
+}
+.mapBubble{
+    position: absolute;
+    top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    width: 299px;
+    padding: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radiurs: 3px;
+    -border-radius: 3px;
+    z-index: 96;
+}
+
+.mapSaveBut{
+    display: none;
+}

@@ -1,0 +1,45 @@
+
+
+.paragragraphArea{
+        position: relative;
+}
+
+.paragraphs{
+    overflow:visible;
+    min-height: 20px;
+    outline: none;
+    -webkit-transition: .3s ease-in-out;  
+    -moz-transition: .3s ease-in-out;     
+}
+
+.paragraphs img{
+    resize: none;   
+}
+
+.parButs{
+    right: 5px;
+    bottom: -8px;
+    position: absolute;
+    display: none;    
+}
+
+.area_p{
+        display: block;
+        background-color: #fff;
+}
+
+.editing{
+        z-index: 100;
+        position: relative;
+        background-color: #fff;    
+        min-height: 20px;    
+        border: 1px solid #007eff;  
+        
+        -webkit-box-shadow: 0px 0px 6px #007eff;  
+        -moz-box-shadow: 0px 0px 5px #007eff;  
+        box-shadow: 0px 0px 5px #007eff; 
+        
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;  
+}

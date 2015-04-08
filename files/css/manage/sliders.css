@@ -1,0 +1,17 @@
+
+/* Slider Editor */
+.drag-slider {
+border-top: 2px solid #000;
+border-bottom: 2px solid #000;
+width: 14px;
+height: 6px;
+margin-left: 10px;
+margin-right: 10px;
+cursor: move;
+}
+
+.span-slider-input {
+    width: 180px;
+    margin-top: 9px;
+}
+/*Slider Editor Bitti*/

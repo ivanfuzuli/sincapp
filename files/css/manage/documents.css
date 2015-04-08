@@ -1,0 +1,13 @@
+.files {
+	width: 100%;
+	overflow: auto;
+}
+
+.files table {
+	width: 100%;
+	text-align: left;
+}
+
+.tr-selected {
+	background-color: #fffcac;
+}

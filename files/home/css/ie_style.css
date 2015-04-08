@@ -1,0 +1,17 @@
+.feature_portfolio .feature_item .icon-folio-shape-stroke-bold{
+	top: -9px;
+}
+
+/* CSS Document */
+
+@media screen and (min-width: 768px) and (max-width: 979px) { /* Portrait Tablets 768 to 979 */
+
+}
+@media screen and (max-width: 767px) { /* Smart Phones to Tablets 767 and below */
+	.feature_portfolio .feature_item .icon-folio-shape-stroke-bold{
+		top: -7px;
+	}
+}
+@media screen and  (max-width: 480px) { /* Smartphones 480 and Below */
+
+}

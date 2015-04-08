@@ -1,0 +1,9 @@
+MANIFEST
+/application/config/
+/files/photos/*
+/files/documents/*
+/vendor/
+/node_modules/
+composer.lock
+/application/config/database.php
+index.php

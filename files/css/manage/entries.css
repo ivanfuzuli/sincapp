@@ -1,0 +1,180 @@
+/*
+--entries start
+*/
+#entryContainer{
+    position: relative;
+    display: none;
+
+}
+
+.entryHolder{
+    color: #666;
+}
+.more{
+    border-top: 1px dashed #252525;
+    background-color: #d1d1d1;
+    height:5px;
+}
+
+
+
+ .entryTitleTxt, .entryBodyTxt, .tagVal{
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;  
+    
+    -moz-box-shadow:    inset 0 0 4px #d1d1d1;
+    -webkit-box-shadow: inset 0 0 4px #d1d1d1;
+    box-shadow:         inset 0 0 4px #d1d1d1;     
+outline: none;
+/*css efekt like twitter*/
+    -webkit-transition: .3s ease-in-out;  
+    -moz-transition: .3s ease-in-out;  
+    transition: .3s ease-in-out;  
+}
+
+.editing, .entryTitleTxt:focus, .entryBodyTxt:focus, .tagVal:focus{
+        border: 1px solid #007eff;  
+        -webkit-box-shadow: 0px 0px 6px #007eff;  
+        -moz-box-shadow: 0px 0px 5px #007eff;  
+        box-shadow: 0px 0px 5px #007eff; 
+}
+
+.editing{
+    min-height: 20px;
+            -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;  
+}
+.entryTitleTxt{
+    margin-top: 10px;
+    font-size: 11pt;
+    font-weight: bold;
+      border:1px solid #d1d1d1;
+      color: #666;
+    width: 98%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.entryBodyTxt{
+    background-color: #fff;
+    border:1px solid #d1d1d1;
+    min-height: 70px;
+    margin-top: 10px;
+    padding: 5px;
+    padding-bottom: 70px;
+
+}
+.tagsContainer{
+    position: absolute;
+    left:3px;
+    right:3px;
+    bottom:40px;
+    font-family: arial, verdana, tahoma;
+    font-size: 9pt;
+}
+
+.tagsContainer li{
+    position: relative;
+    float: left;    
+    background-color: #f1f1f1;    
+    border:1px solid #d1d1d1;
+    color: #075490;
+    
+    padding: 2px;
+    margin: 2px;
+    padding-right: 12px;
+
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;      
+}
+.tagsContainer li span{
+    position: absolute;
+    right: 2px;
+    background: url('dialog-close.png') no-repeat;
+    width: 10px;
+    height: 16px;
+    margin-left: 2px;
+    margin-top: 1px;
+}
+.tagsContainer li span:hover{
+    background-position: 0 -16px;
+}
+.entryButContainer{
+    position: absolute;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    clear: both;
+        margin: 5px;
+        background-color: #f1f1f1;
+        border: 1px solid #d1d1d1;
+}
+.entryLeftContainer{
+    float:left;
+}
+.entryRightContainer{
+    float: right;
+}
+
+.tagVal{
+    margin-top: 5px;
+    padding: 3px;
+     border:1px solid #d1d1d1;
+    width: 100px;
+    overflow: hidden;
+}
+
+
+.entryDelEdit, .commentDel{
+    position: absolute;
+    top: 5px;
+    right:5px;
+    z-index: 100;
+    display: none;
+}
+
+
+.entryEditBut, .entryDelBut, .commentDelBut{
+    height: 16px;
+    width: 16px;
+    float: left;
+    padding: 5px ;
+    margin: 2px 2px 2px 0px;
+    border: 1px solid #d1d1d1;
+   cursor: pointer;
+}
+.entryEditBut{
+    background: url(edit-but.png) no-repeat 50% 50%;
+    
+        -webkit-border-top-left-radius: 5px;
+        -moz-border-top-left-radius: 5px;
+        border-top-left-radius: 5px;  
+        
+        -webkit-border-bottom-left-radius: 5px;
+        -moz-border-bottom-left-radius: 5px;
+        border-bottom-left-radius: 5px;  
+}
+.entryDelBut, .commentDelBut{
+    background: url(delete.png) no-repeat 50% 50%;
+    
+        -webkit-border-top-right-radius: 5px;
+        -moz-border-top-right-radius: 5px;
+        border-top-right-radius: 5px;  
+        
+        -webkit-border-bottom-right-radius: 5px;
+        -moz-border-bottom-right-radius: 5px;
+        border-bottom-right-radius: 5px;      
+}
+
+.commentDelBut{
+    background-color: #fff;
+}
+.entryEditBut:hover, .entryDelBut:hover, .commentDelBut:hover{
+    background-color: #d1d1d1;
+}
+
+/*
+--entries End
+*/

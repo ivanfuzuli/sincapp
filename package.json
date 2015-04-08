@@ -1,0 +1,22 @@
+{
+  "name": "Sincapp",
+  "version": "0.0.1",
+  "description": "Sincapp grunt npm config",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Can Küçükyılmaz",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "*",
+    "grunt-concat-css": "^0.3.1",
+    "grunt-contrib-concat": "*",
+    "grunt-contrib-cssmin": "^0.10.0",
+    "grunt-contrib-jshint": "*",
+    "grunt-contrib-requirejs": "^0.4.4",
+    "grunt-contrib-uglify": "*",
+    "grunt-contrib-watch": "*",
+    "grunt-cssjoin": "^0.3.0"
+  }
+}

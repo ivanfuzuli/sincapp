@@ -1,0 +1,48 @@
+.formEditLeft{
+    float:left;
+    width: 110px;
+}
+.formEditRight{
+    float: left;
+    width: 420px;
+}
+#formEditDragList li a{
+    cursor: move;
+}
+#formEditDropList{
+    list-style: none;
+    margin-left: 10px;
+}
+#formEditDropList li{
+    border: 1px solid #fff;
+    margin: 2px;
+    padding: 3px 3px 3px 10px;
+    cursor: move;
+}
+#formEditDropList li:hover{
+  border: 1px solid #eee;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+}
+
+.formEditLabel{
+    border: 1px dashed #d1d1d1!important;
+    width: 100px;
+    margin-right: 10px;
+}
+
+.form-label{
+    display: inline;
+    padding: 3px;
+    margin-left: 5px;
+}
+
+.formEditHolder{
+    height: 20px;
+    background-color: #ffcc66;
+     -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+}

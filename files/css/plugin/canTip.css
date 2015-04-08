@@ -1,0 +1,33 @@
+/*
+@canTip start
+
+*/
+
+#canTip{
+    position: absolute;
+    width: auto;
+    z-index: 9999;
+    display: none;
+}
+#tipArrow{
+	width: 0; 
+	height: 0; 
+	border-left: 8px solid transparent;
+	border-right: 8px solid transparent;
+	
+	border-bottom: 8px solid black;
+}
+#tipContent{
+    padding: 5px;    
+    background-color: #000;/*ie fallback*/    
+    
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;   
+        color: #fff;
+    font-family: arial, tahoma, verdana;
+    font-size: 8pt;        
+}
+/*
+@canTip end
+*/

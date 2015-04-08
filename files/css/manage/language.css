@@ -1,0 +1,15 @@
+
+#lang-select {
+    cursor: pointer; 
+}
+
+.span_half {
+    width: 45%;
+    float: left;
+    overflow: hidden;
+}
+
+#languageLoading {
+	height: 15px;
+	text-align: center;
+}

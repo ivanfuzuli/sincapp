@@ -1,0 +1,125 @@
+body {
+        min-width: 960px;
+
+}
+
+/* Containers
+----------------------------------------------------------------------------------------------------*/
+.container_16 {
+        float: left;
+	width: 960px;
+}
+
+.wrapper{
+    margin: auto auto;
+    width: 960px;
+}
+
+
+
+.col{
+    float: left;
+    display: block;
+    margin-right:30px;
+    min-height: 2px;
+}
+.ext{
+    padding: 5px;
+}
+
+/* `Clear Floated Elements
+----------------------------------------------------------------------------------------------------*/
+
+/* http://sonspring.com/journal/clearing-floats */
+
+.clear {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+/* http://www.yuiblog.com/blog/2010/09/27/clearfix-reloaded-overflowhidden-demystified */
+
+.clearfix:before,
+.clearfix:after {
+  content: '\0020';
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+/*
+  The following zoom:1 rule is specifically for IE6 + IE7.
+  Move to separate stylesheet if invalid CSS is a problem.
+*/
+
+.clearfix {
+  zoom: 1;
+}
+
+#logo{
+    position: relative;
+    float: left;  
+}
+
+#logo span{
+
+font-family: 'Sirin Stencil', cursive;  
+}
+
+
+#navigation{
+    position: relative;
+    z-index: 2;
+}
+#nav_bar{
+
+}
+#nav_bar li{
+
+    
+}
+#nav_bar li a{
+  
+    
+}
+#nav_bar li a:hover{
+
+}
+#nav_bar li:hover, #nav_bar li.active{
+
+}
+
+/*Alt Liste*/
+#nav_bar li ul{
+
+}
+#nav_bar li ul li{
+
+    
+}
+/*En alt liste*/
+#nav_bar li ul li ul{
+
+}
+
+#nav_bar li:hover > ul{
+}
+
+#middle{
+     min-height: 300px;
+    
+}
+
+#footer{
+
+}

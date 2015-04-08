@@ -1,0 +1,21 @@
+/**
+photoGalery Start
+
+**/
+
+.remove_photo{
+    height: 16px;
+    width: 16px;
+    background: url('../images/manage/pic_delete.png') 0 0 no-repeat;
+    cursor: pointer;
+    position: absolute;
+    right: 5px;
+    display: none;
+}
+.remove_photo:hover{
+    background-position: 0px -17px;
+}
+
+/**
+photoGalery End
+*/

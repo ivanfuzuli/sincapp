@@ -1,0 +1,67 @@
+
+.mce-tinymce {
+  z-index: 100!important;
+}
+#uvTab {
+	z-index: 100!important; /*User Voice Z-index bug fixer*/
+}
+
+#photoTools{
+    position: absolute;
+    display: none;
+    z-index: 102;
+}
+
+#contextMenu{
+    position: absolute;
+    width: 80px;
+    z-index: 999;
+    display: none;
+    border:1px solid #d1d1d1;
+    background-color: #fff;
+	-webkit-box-shadow: 1px 1px 4px  black;
+	   -moz-box-shadow: 1px 1px 4px  black;
+	        box-shadow: 1px 1px 4px  black;
+}
+#pasteClean{
+    position: absolute;
+    left: -1000px;
+}
+#contextMenu a{
+    float: left;
+    width: 54px;
+    border:1px solid #fff;
+    border-left: 1px solid #d1d1d1;
+    color: #000;
+    padding: 3px;
+    padding-left: 20px;
+    cursor: pointer;
+    text-decoration: none;
+}
+#contextMenu a:hover{
+    border: 1px solid #075490;
+}
+
+
+#toolbar{
+  width: 100%;
+  background-color: #f1f1f1;
+  border-bottom: 1px solid #d1d1d1;
+  float: left;
+}
+.toolbuts{
+    margin-left: auto;
+    margin-right: auto;
+    width: 805px;
+}
+.toolbuts div {
+  display: inline-block;
+  *display: inline;
+  /* IE7 inline-block hack */
+
+  *zoom: 1;
+}
+
+.icon-underline{
+    background:  url('../images/manage/underline.png') no-repeat;
+}

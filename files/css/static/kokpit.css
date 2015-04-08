@@ -1,0 +1,71 @@
+body{
+    margin-top: 20px;
+}
+
+/*info box*/
+.nav-stacked li{
+    position: relative;
+}
+
+.ibox{
+    position: absolute;
+    right: 0;
+    top: -3px;
+    background-color: #dd3c10;
+    color: #fff;
+    font-size: 8pt;
+    font-weight: bold;
+    padding: 2px 4px 2px 4px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+}
+
+/*iletisim bolumu*/
+.contact{
+    position: relative;
+    border: 1px solid #ddd;
+    margin-bottom: 5px;
+}
+
+.newInfo{
+    background-color: #dd3c10;
+    color: #fff;
+    font-size: 8pt;
+    padding: 2px;
+    margin-left: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+}
+.contact_date{
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    font-size: 8pt;
+}
+
+.contact_body{
+    padding: 3px;
+}
+.contact_footer{
+    background-color: #ddd;
+    padding: 3px;
+    text-align: right;
+}
+/*feedback*/
+
+.feed{
+    cursor: pointer;
+}
+.unread{
+font-weight: bold;
+}
+
+/* Siparişler*/
+.btn-90 {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+}

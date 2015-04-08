@@ -1,0 +1,42 @@
+#post-title {
+	width: 695px;
+	font-size: 14pt!important;
+	padding: 10px!important;
+	margin-bottom: 5px;
+}
+
+#blog-container {
+	position: fixed;
+	top: 40px;
+	background-color: #fff;
+	bottom: 0;
+	right: 0;
+	left: 230px;
+	z-index: 111;
+}
+
+#add-post {
+	margin-top: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 870px;
+	overflow: scroll;
+}
+
+.post {
+	position: relative;
+}
+.btn-blog-group {
+	position: absolute;
+	right: 5px;
+	top: 5px;
+	width: 125px;
+	display: none;
+}
+
+.add-blog-container {
+	margin-top: 5px;
+}
+.add-blog-container input {
+	width: 200px;
+}

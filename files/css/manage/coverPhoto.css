@@ -1,0 +1,46 @@
+.btn-absolute {
+	position: absolute;
+	margin-left: 5px;
+	margin-top: 5px;
+	z-index: 2;
+}
+#cover-photo {
+	position: relative;
+	min-height: 50px;
+
+}
+
+.cover-max {
+	background-color: #fff;
+	height: 300px;
+	max-height: 300px;
+	overflow: hidden;	
+}
+
+.cover-zindex {
+	z-index: 102;	
+}
+
+.move-cursor {
+   cursor: move;
+}
+
+#cover-info {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	border-radius: 2px;
+	background-color: #000;
+	color: #fff;
+	padding: 5px;
+	font-weight: bold;
+	margin-left: -148px;
+	background-color: rgba(73, 67, 92, 0.9);
+}
+
+#cover-save-container {
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	z-index: 2;
+}

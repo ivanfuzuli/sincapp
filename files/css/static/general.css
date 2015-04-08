@@ -1,0 +1,373 @@
+/*
+    Ribbons Start
+*/
+.non-semantic-protector { position: relative; z-index: 1; }
+
+#nav_bar {
+  overflow: hidden;
+}
+#navigation {
+  overflow: hidden;
+}
+
+.js-ready #nav_bar, .js-ready #navigation {
+   overflow: visible;
+}
+.ribbon {
+ font-family: 'Helvetica Neue',Helvetica, sans-serif;
+ font-size: 16px !important;
+ /* This ribbon is based on a 16px font side and a 24px vertical rhythm. I've used em's to position each element for scalability. If you want to use a different font size you may have to play with the position of the ribbon elements */
+
+ width: 50%;
+    
+ position: relative;
+   background: #d64b4b;
+   background: -webkit-gradient(linear, left top, left bottom, from(#d64b4b), to(#ab2c2c));
+   background: -webkit-linear-gradient(top, #d64b4b, #ab2c2c);
+   background: -moz-linear-gradient(top, #d64b4b, #ab2c2c);
+   background: -ms-linear-gradient(top, #d64b4b, #ab2c2c);
+   background: -o-linear-gradient(top, #d64b4b, #ab2c2c);
+   background-image: -ms-linear-gradient(top, #d64b4b 0%, #ab2c2c 100%);
+   -webkit-box-shadow: rgba(000,000,000,0.3) 0 1px 1px;
+   -moz-box-shadow: rgba(000,000,000,0.3) 0 1px 1px;
+   box-shadow: rgba(000,000,000,0.3) 0 1px 1px; 
+   color: #801111;
+   text-shadow: #d65c5c 0 1px 0;
+ font-weight: bold;
+ text-align: center;
+ padding: 1em 2em; /* Adjust to suit */
+ margin: 10px auto 20px; /* Based on 24px vertical rhythm. 48px bottom margin - normally 24 but the ribbon 'graphics' take up 24px themselves so we double it. */
+}
+.ribbon:before, .ribbon:after {
+ content: "";
+ position: absolute;
+ display: block;
+ bottom: -1em;
+ border: 1.5em solid #c23a3a;
+ z-index: -1;
+}
+.ribbon:before {
+ left: -2em;
+ border-right-width: 1.5em;
+ border-left-color: transparent;
+    border-left-color: transparent;
+   -webkit-box-shadow: rgba(000,000,000,0.4) 1px 1px 1px;
+   -moz-box-shadow: rgba(000,000,000,0.4) 1px 1px 1px;
+   box-shadow: rgba(000,000,000,0.4) 1px 1px 1px;
+}
+.ribbon:after {
+ right: -2em;
+ border-left-width: 1.5em;
+   border-right-color: transparent;
+   -webkit-box-shadow: rgba(000,000,000,0.4) -1px 1px 1px;
+   -moz-box-shadow: rgba(000,000,000,0.4) -1px 1px 1px;
+   box-shadow: rgba(000,000,000,0.4) -1px 1px 1px;
+}
+
+.ribbon .ribbon-content:before, .ribbon .ribbon-content:after {
+ content: "";
+ position: absolute;
+ display: block;
+ border-style: solid;
+ border-color: #871616 transparent transparent transparent;
+ bottom: -1em;
+}
+.ribbon .ribbon-content:before {
+ left: 0;
+ border-width: 1em 0 0 1em;
+}
+.ribbon .ribbon-content:after {
+ right: 0;
+ border-width: 1em 1em 0 0;
+}
+
+/** RIBBON COLORS **/
+/** Green **/
+.ribbon.green {
+   background: #00c936;
+   background: -webkit-gradient(linear, left top, left bottom, from(#00c936), to(#038a27));
+   background: -webkit-linear-gradient(top, #00c936, #038a27);
+   background: -moz-linear-gradient(top, #00c936, #038a27);
+   background: -ms-linear-gradient(top, #00c936, #038a27);
+   background: -o-linear-gradient(top, #00c936, #038a27);
+   background-image: -ms-linear-gradient(top, #00c936 0%, #038a27 100%);
+   color: #1e6601;
+   text-shadow: #00c936 0 1px 0;   
+}
+.ribbon.green:before, .ribbon.green:after {
+    border: 1.5em solid #35ab35;
+}
+.ribbon.green:before {
+ left: -2em;
+ border-right-width: 1.5em;
+ border-left-color: transparent;
+    border-left-color: transparent;
+   -webkit-box-shadow: rgba(000,000,000,0.4) 1px 1px 1px;
+   -moz-box-shadow: rgba(000,000,000,0.4) 1px 1px 1px;
+   box-shadow: rgba(000,000,000,0.4) 1px 1px 1px;
+}
+.ribbon.green:after {
+ right: -2em;
+ border-left-width: 1.5em;
+   border-right-color: transparent;
+   -webkit-box-shadow: rgba(000,000,000,0.4) -1px 1px 1px;
+   -moz-box-shadow: rgba(000,000,000,0.4) -1px 1px 1px;
+   box-shadow: rgba(000,000,000,0.4) -1px 1px 1px;
+}
+
+.ribbon.green .ribbon-content:before, .ribbon.green .ribbon-content:after {
+    border-color: #025217 transparent transparent transparent;
+}
+/**End Green**/
+/** Blue **/
+.ribbon.blue {
+   background: #6251f7;
+   background: -webkit-gradient(linear, left top, left bottom, from(#6251f7), to(#1a04e3));
+   background: -webkit-linear-gradient(top, #6251f7, #1a04e3);
+   background: -moz-linear-gradient(top, #6251f7, #1a04e3);
+   background: -ms-linear-gradient(top, #6251f7, #1a04e3);
+   background: -o-linear-gradient(top, #6251f7, #1a04e3);
+   background-image: -ms-linear-gradient(top, #6251f7 0%, #1a04e3 100%);
+   -webkit-box-shadow: rgba(000,000,000,0.3) 0 1px 1px;
+   color: #000f70;
+   text-shadow: #425da1 0 1px 0;  
+}
+.ribbon.blue:before, .ribbon.blue:after {
+    border: 1.5em solid #1a04e3;
+}
+.ribbon.blue:before {
+ left: -2em;
+ border-right-width: 1.5em;
+ border-left-color: transparent;
+    border-left-color: transparent;
+   -webkit-box-shadow: rgba(000,000,000,0.4) 1px 1px 1px;
+   -moz-box-shadow: rgba(000,000,000,0.4) 1px 1px 1px;
+   box-shadow: rgba(000,000,000,0.4) 1px 1px 1px;
+}
+.ribbon.blue:after {
+ right: -2em;
+ border-left-width: 1.5em;
+   border-right-color: transparent;
+   -webkit-box-shadow: rgba(000,000,000,0.4) -1px 1px 1px;
+   -moz-box-shadow: rgba(000,000,000,0.4) -1px 1px 1px;
+   box-shadow: rgba(000,000,000,0.4) -1px 1px 1px;
+}
+
+.ribbon.blue .ribbon-content:before, .ribbon.blue .ribbon-content:after {
+    border-color: #000f70 transparent transparent transparent;
+}
+/** End Blue **/
+/** END RIBBOM COLORS **/
+/* Ribbons End */
+
+.maps label { width: auto; display:inline; }
+.maps img { max-width: none; }/*bootstrap maps bug fix*/
+
+.paragraphs{
+ overflow: auto;
+}
+
+.paragraphs img{
+    padding-left: 2px;
+    padding-right: 2px;
+}
+/*
+    photoGalery Start
+*/
+.photo_cloud{
+    position: relative;
+    float: left;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.thumbPhoto{
+    position: relative;
+    
+    background-color: #fff;
+    border:1px solid #d1d1d1;
+    padding: 3px;
+    margin: 3px;
+    width: 100px;
+    height: 75px;
+    float: left;
+
+  -webkit-transition: background-color 0;
+  -moz-transition: background-color 0;
+  -o-transition: background-color 0;
+  transition: background-color 0;
+      
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+}
+
+.thumbPhoto:hover{
+  border:1px solid #4ae;
+  background-color: #4ae;
+}
+/*
+    photoGallery End
+*/
+
+/*
+    Form Start 
+*/
+.formArea{
+    float: left;
+}
+.formArea .formInputArea{
+    width: 90%;
+    max-width: 400px;
+}
+.formArea label{
+    float:left;
+    width: 90%;
+    font-weight: bold;
+}
+.formArea textarea{
+    width: 95%;
+    max-width: 450px;
+    
+}
+
+.requiredSpan{
+    color: red;
+}
+
+.formError{
+    color: red;
+    display: none;
+}
+/*
+    Form Bitti 
+*/
+
+/* Maps Start*/
+.maps{
+    height: 250px;
+    width: 100%;
+    background: url('../images/site/map-marker.png') 50% 50% no-repeat #f1f1f1;
+}
+
+.bg-image {
+  width: 100%;
+}
+/* Maps End*/
+/* Forms Start */
+.refresh_captcha {
+  width: 24px;
+  height: 24px;
+  background: url('../images/site/refresh.png') no-repeat;
+  margin-left: 10px;
+  margin-top: 10px;
+  display: inline-block;
+}
+/* \ Forms  End*/
+
+#bottom-bar {
+    float: left;
+    width: 100%;
+    background-color: #428bca;
+    position: relative;
+    cursor: pointer;
+    -webkit-transition: background-color 1000ms linear;
+    -moz-transition: background-color 1000ms linear;
+    -o-transition: background-color 1000ms linear;
+    -ms-transition: background-color 1000ms linear;
+    transition: background-color 1000ms linear;     
+}
+#bottom-bar:hover {
+  background-color: #35bdf6;
+    -webkit-transition: background-color 1000ms linear;
+    -moz-transition: background-color 1000ms linear;
+    -o-transition: background-color 1000ms linear;
+    -ms-transition: background-color 1000ms linear;
+    transition: background-color 1000ms linear;    
+}
+.bottom-arrow {
+    background: url('../images/site/bottom-arrow.png') no-repeat;
+    height: 32px;
+    width: 32px;
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    margin-left: -16px;    
+}
+
+.bottom-left, .bottom-right {
+  max-width: 50%;
+  padding: 10px;
+  color: #fff;
+  font-size: 10pt;
+  text-transform:uppercase;
+}
+
+.bottom-left {
+  float: left;
+}
+.bottom-right {
+  float: right;
+  text-transform:uppercase;
+}
+#bottom-content {
+  float: left;
+  width: 100%;
+  background-color: #428bca;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+#bottom-content div {
+  padding: 20px;  
+}
+#bottom-content a {
+  display: inline-block;
+  font-weight: 600;
+  text-transform: uppercase;
+  width: auto;
+  margin: 15px 0; 
+  height: 66px;
+  line-height: 66px;
+  padding: 0 39px; 
+  background-color: #FF8400;
+  border: 1px solid #FF8400;  
+  -webkit-transition: all .3s ease 0s;
+  -moz-transition: all .3s ease 0s;
+  -ms-transition: all .3s ease 0s;
+  -o-transition: all .3s ease 0s;
+  transition: all .3s ease 0s;
+  text-align: center;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  color: #FFF;  
+}
+
+#bottom-content a:hover {
+   background-color: transparent;
+   text-decoration: none;
+};
+
+/** BLOG **/
+.only_title_hr {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+/** Password **/
+.password-form {
+  width: 300px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 10px;
+text-align: center;
+}
+
+.red-line {
+  color: red;
+}

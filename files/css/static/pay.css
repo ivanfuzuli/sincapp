@@ -1,0 +1,59 @@
+.pay_container {
+	width: 100%;
+	overflow: auto;
+}
+.pay {
+	background-color: #fff;
+	border: 1px solid #fbe8aa;
+	border-radius: 5px;
+	width: 100%;
+	text-align: center;
+	float: left;
+	font-family: 'Open Sans', arial, serif;
+	margin-bottom: 10px;
+}
+
+.pay_info {
+	width: 300px;
+	float: left;
+}
+
+.pay_pos {
+	width: 420px;
+	margin-left: 179px;;
+	float: left;
+}
+
+.pay .header {
+	background-color: #fbbd19;
+	font-weight: bold;
+	border-radius: 5px;
+
+	font-size: 14pt;
+	padding: 5px;
+}
+
+.card_wrapper {
+	margin-bottom: 10px;
+}
+.pay .body {
+	padding: 5px;
+}
+
+
+.controls-mini {
+	text-align: left;
+	margin-left: 10px;
+}
+
+input.card-valid {
+	border: 1px solid #468847;
+}
+
+input.card-invalid {
+	border: 1px solid #b94a48;
+}
+
+input[type="image"] {
+	width: auto;
+}

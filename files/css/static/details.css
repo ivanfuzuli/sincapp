@@ -1,0 +1,12 @@
+.line-height-28 {
+	line-height: 28px;
+	font-weight: bold;
+}
+
+.required {
+	color: red;
+}
+
+.span-phone {
+	width: 174px;
+}

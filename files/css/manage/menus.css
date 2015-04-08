@@ -1,0 +1,23 @@
+.menuArea {
+	margin-top: 5px;
+}
+
+.menu_span{
+	width: 250px;
+	margin-left: 150px;
+}
+
+.nav-stacked>li {
+	position: relative;
+}
+.delete-menu {
+	position: absolute;
+	padding: 4px;
+	background-color: red;
+	cursor: pointer;
+	display: none;
+	color: #fff;
+	right: 5px;
+	top: 5px;
+
+}

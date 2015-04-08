@@ -1,0 +1,260 @@
+@charset "utf-8";
+/* In file css/colors/custom_color.css Change and replace #FF8400 with [#123456] your own six-digit hex code
+   And in <head> of html replace orange.css with custom_color.css
+*/
+::selection {
+	background: #FF8400; /* Safari */
+}
+::-moz-selection {
+	background: #FF8400; /* Firefox */
+}
+a {
+    color: #FF8400;
+}
+
+/*******************************************************************/
+/********************* Global Elements Css Starts ******************/
+/* Button CSS starts */
+.button, a.button{
+	background-color: #FF8400;
+	border: 1px solid #FF8400;
+}
+input[type="submit"]{
+	background-color: #FF8400;
+	border: 1px solid #FF8400;
+}
+	input[type="submit"]:hover, input[type="submit"]:active, input[type="submit"]:focus{
+		color: #FF8400;
+	}
+/* Button CSS ends */
+
+/********************* Global Elements Css ends ******************/
+/*******************************************************************/
+/* menu-bar starts */
+
+
+/* menu-bar starts from */
+	.menu-bar .main-nav .back_top a{
+		color: #FF8400;
+	}
+	/* menu-bar Dropdown Starts */
+	.menu-bar .main-nav  ul > li > ul {
+		border-top: 1px solid #FF8400;
+	}
+	/* menu-bar Dropdown Ends */
+	
+/* menu-bar ends */
+
+/* Section Homepage General CSS starts */
+		.section_container .hgroup h3:before, .section_container .hgroup h3:after{
+			background: #FF8400;
+		}
+	.section_container .hgroup h3 span{
+		color: #FF8400;
+	}	
+/* Section Homepage General CSS ends */
+
+/* .service_single starts */	
+	.service_single .service_block .icon-folio-shape-filled, .service_single .service_block .icon-folio-shape-stroke {
+		color: #FF8400;
+	}
+	.service_single .service_block:hover .fa{
+		color: #FF8400;
+	}
+/* .service_single ends */	
+
+/* Parallex Css Starts */
+		.parallex_folio .parallax_text h5 span{
+			color: #FF8400;
+		}
+/* Parallex Css Ends */
+
+/* portfolio_nav starts */
+	.portfolio_nav ul li a:hover, .portfolio_nav ul li.current a{
+		color: #FF8400;
+	}
+/* portfolio_nav ends */
+
+/* portfolio_listing starts */
+	.view .mask a .icon-folio-shape-filled{
+		color: #FF8400;
+	}
+	.view .mask .port_detail{
+		color: #FF8400;
+	}
+	.view .mask .port_detail h3{
+		color: #FF8400;
+	}
+	.view .mask .port_detail p{
+		color: #FF8400;
+	}
+	.view:hover .mask .port_detail, .single_portfolio.active .view .mask .port_detail{
+		color: #FF8400;
+	}
+/* portfolio_listing ends */
+	
+/* .hm_blog_post starts */
+	.hm_blog_post .featured_holder .date{
+		background-color: #FF8400;
+	}
+	.hm_blog_post .title_holder .post_title h2, .hm_blog_post .title_holder .post_title h2 a:hover{
+		color: #FF8400;
+	}
+	.hm_blog_post .title_holder .comments a:hover{
+		color: #FF8400;
+	}
+/* .hm_blog_post ends */
+
+/* .contact_area starts */
+.contact_area .contact_info .info_single i{
+	color: #FF8400;
+}
+/* .contact_area ends */
+
+/* Footer Starts*/
+/* sm_links starts */
+ul.sm_links li a{
+	color: #FF8400;
+}
+/* sm_links ends */
+.footer_text .hgroup h5 span {
+	color: #FF8400;
+}
+/* Footer Ends*/
+
+/* content_bar Styling Starts*/
+	.content_bar h1 span, .content_bar h2 span, .content_bar h3 span, .content_bar h4 span, .content_bar h5 span, .content_bar h6 span, .content_bar h1 a span, .content_bar h2 a span, .content_bar h3 a span, .content_bar h4 a span, .content_bar h5 a span, .content_bar h6 a span{
+		color: #FF8400;
+}
+.content_bar h1 a:hover, .content_bar h2 a:hover, .content_bar h3 a:hover, .content_bar h4 a:hover, .content_bar h5 a:hover, .content_bar h6 a:hover{
+	color: #FF8400;
+}
+.content_bar .highlight{
+	color: #FF8400;
+}
+	.content_bar p a{
+		color: #FF8400;
+	}
+	.content_bar ul li:before{
+		color: #FF8400;
+	}
+	/* quote_styling Starts */
+	.content_bar .quote_3 {
+		border-left: 3px solid  #FF8400;
+	}
+	/* quote_styling Ends */
+		
+/* content_bar Styling Ends*/
+
+/* Blog Detail and Single Post etc starts */
+
+/* .blog_post Starts */
+	/* audiojs Ends */
+	.blog_post .date{
+		background-color: #FF8400;
+	}
+	.blog_post .title_holder .post_title h2, .blog_post .title_holder .post_title h2 a:hover{
+		color: #FF8400;
+	}
+	.blog_post .title_holder .comments a:hover{
+		color: #FF8400;
+	}
+	/* social_media starts */
+/* .blog_post Ends */
+
+/* pagination start */ 
+	 /*.wp-pagenavi & wp_corenavi starts*/
+	.wp-pagenavi span.current, .folio_navigation  .wp_corenavi span.current {
+		background: #FF8400;
+	}
+	/*.wp-pagenavi  & wp_corenavi starts*/
+	
+/* pagination end */
+
+/* side_bar Starts*/
+.widget-title {
+	border-bottom: 1px solid #FF8400;
+}
+
+.widget-title:before {
+  color: #FF8400;
+}
+	/* widget_recent_entries Starts*/
+	.widget_recent_entries ul li a:hover {
+		color: #FF8400;
+	}
+	/* widget_recent_entries Ends*/
+
+	/* widget_categories Starts*/
+	.widget_categories ul li a:hover {
+		color: #FF8400;
+	}
+	/* widget_categories Ends*/
+	
+	/* widget_text Starts*/
+	.textwidget strong {
+		color: #FF8400;
+	}
+	/* widget_text Ends*/
+	
+	/* widget tagcloud starts */
+	.tagcloud a:hover {
+		background: #FF8400;
+	}
+	/* widget tagcloud ends */
+	
+	/* widget_kraft_slider starts */
+				.widget_kraft_slider .bx-wrapper .bx-controls-direction a:hover{
+					color: #FF8400;
+				}
+	/* widget_kraft_slider ends */
+	
+	/* tweet-list Starts */
+	.tweet-list .tweet .icon {
+		color: #FF8400;
+	}
+	/* tweet-list Ends */
+	
+/* sidebar Ends*/
+
+/* .navigation Starts */
+		.page_nav a:hover{
+			background: #FF8400;
+		}
+/* .navigation Ends */
+
+/* comments_section Starts */
+ #comments_section h3 i{
+    color: #FF8400;
+ }
+		#comments_section #commentform .button:hover, #comments_section #commentform .button:active, #comments_section #commentform .button:focus{
+			color: #FF8400;
+		}
+/* comments_section Ends */
+
+/* Blog Detail and Single Post etc ends */
+
+/************ project_style.css Starts ***********/
+/* #project_nav starts */
+#project_nav ul li a:hover{
+	background-color: #FF8400;
+}
+/* #project_nav ends */
+
+/* #close_project starts */
+#close_project a:hover {
+	background: #FF8400;
+}
+/* #close_project ends */
+/************ project_style.css Ends ***********/
+
+/************ responsiveslides.css Starts ***********/
+.transparent-btns_tabs .transparent-btns_here a, .transparent-btns_tabs a:hover{
+	border: 2px solid #FF8400;
+}
+.centered-btns_here a:before,
+.transparent-btns_here a:before,
+.large-btns_here a:before {
+  color: #FF8400;
+  }
+/************ responsiveslides.css Ends ***********/
